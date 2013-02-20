@@ -1,0 +1,12 @@
+{
+    "name": "Random Trope",
+    "description": "    Opens a random trope on TV Tropes",
+    "version": "1.0.1",
+    "browser_action": {
+        "default_icon" : "icon-tt.png",
+        "default_title": "Random Trope"
+    },
+    "background": { "scripts": ["background.js"] },
+    "icons": { "16": "icon-tt.png", "128": "icon-tt.png" },
+    "manifest_version": 2
+}
